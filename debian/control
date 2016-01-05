@@ -1,0 +1,17 @@
+Source: bigdata
+Section: admin
+Priority: extra
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 9)
+               conjure,
+Standards-Version: 3.9.6
+Homepage: https://github.com/Ubuntu-Solutions-Engineering/bigdata-deb
+Vcs-Browser: https://github.com/Ubuntu-Solutions-Engineering/bigdata-deb
+Vcs-Git: https://github.com/Ubuntu-Solutions-Engineering/bigdata-deb.git
+
+Package: bigdata
+Architecture: all
+Depends: ${misc:Depends}
+Description: Software platform for processing vast amounts of data
+ Hadoop is a software platform that lets one easily write and run applications
+ that process vast amounts of data.

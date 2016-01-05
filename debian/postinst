@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = configure]; then
+   /usr/share/conjure/conjure-setup -c /usr/share/conjure/bigdata/config.json
+else
+   echo "Please run conjure-setup -c /usr/share/conjure/bigdata/config.json to continue with bigdata installation."
+fi
+
+#DEBHELPER#
+
+exit 0
