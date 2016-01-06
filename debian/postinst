@@ -1,7 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 
-/usr/share/conjure/conjure-setup -c /usr/share/conjure/bigdata/config.json
+if [ -t 1 ]; then
+    /usr/share/conjure/conjure-setup -c /usr/share/conjure/bigdata/config.json
+else
+    echo "Please run /usr/share/conjure/conjure-setup -c /usr/share/conjure/bigdata/config.json to complete the installation."
+fi
 
 exit 0
