@@ -11,7 +11,7 @@ Vcs-Git: https://github.com/Ubuntu-Solutions-Engineering/bigdata-deb.git
 
 Package: bigdata
 Architecture: all
-Depends: ${misc:Depends}
+Depends: conjure, ${misc:Depends}
 Description: Software platform for processing vast amounts of data
  Hadoop is a software platform that lets one easily write and run applications
  that process vast amounts of data.
