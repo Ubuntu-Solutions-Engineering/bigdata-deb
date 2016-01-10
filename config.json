@@ -2,7 +2,7 @@
   "name": "bigdata",
   "version": "0.0.1",
   "summary": "Juju solutions for Big Data",
-  "excerpt": "When exploring big data solutions, one of the most daunting tasks users face is the setup and configuration of these usually complex tools. This can take from hours to days, time you could and should spend testing, evaluating, and putting your big data solutions to good use to benefit your business.",
+  "excerpt": "Choose your big data solution for the most streamlined approach to utilizing these tools to further bolster your business.",
   "maintainer": "Adam Stokes <adam.stokes@ubuntu.com>",
   "bundles": [{
     "key": "hdp-core-batch-processing",
