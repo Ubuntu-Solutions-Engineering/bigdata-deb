@@ -1,4 +1,0 @@
-#!/bin/bash
-
-conjure-setup -c /usr/share/conjure/bigdata/config.json
-exit 0

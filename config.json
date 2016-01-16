@@ -30,6 +30,6 @@
         "elasticsearch"
     ],
     "bin": {
-        "bigdata-setup": "bigdata-setup"
+        "bigdata-install": "bigdata-install"
     }
 }

@@ -1,2 +1,2 @@
-config.json usr/share/conjure/bigdata
-bigdata-setup usr/bin
+config.json usr/share/bigdata
+bigdata-install usr/bin
