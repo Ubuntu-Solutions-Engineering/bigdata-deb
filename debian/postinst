@@ -3,7 +3,7 @@
 set -e
 
 echo ""
-echo "Please run bigdata-setup to finish installation."
+echo "Please run bigdata-install to finish installation."
 echo ""
 
 exit 0
