@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "summary": "Juju solutions for Big Data",
     "excerpt": "Choose your big data solution for the most streamlined approach to utilizing these tools to further bolster your business.",
-    "maintainer": "Adam Stokes <adam.stokes@ubuntu.com>",
+    "maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
     "bundles": [{
         "key": "hdp-core-batch-processing",
         "name": "Hadoop Core Batch Processing",
@@ -25,11 +25,5 @@
         "name": "Real Time Analytics with Storm",
         "summary": "Run real-time analytics with Storm"
     }],
-    "recommendedCharms": [
-        "kibana",
-        "elasticsearch"
-    ],
-    "bin": {
-        "bigdata-install": "bigdata-install"
-    }
+    "bin":  "bigdata-install"
 }
