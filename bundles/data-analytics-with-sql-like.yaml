@@ -1,0 +1,45 @@
+services:
+  compute-node:
+    charm: cs:trusty/hdp-hadoop-8
+    num_units: 1
+    annotations:
+      gui-x: "768"
+      gui-y: "591.0585428804295"
+  hdphive:
+    charm: cs:trusty/hdp-hive-4
+    num_units: 1
+    annotations:
+      gui-x: "1105.4991775605417"
+      gui-y: "284.9414571195705"
+  mysql:
+    charm: cs:trusty/mysql-4
+    num_units: 1
+    options:
+      binlog-format: ROW
+    annotations:
+      gui-x: "1102.9983551210835"
+      gui-y: "591.0585428804295"
+  yarn-hdfs-master:
+    charm: cs:trusty/hdp-hadoop-8
+    num_units: 1
+    annotations:
+      gui-x: "769.0016448789165"
+      gui-y: "285.0585428804295"
+  ntp:
+    annotations:
+      gui-x: '1000'
+      gui-y: '0'
+    charm: cs:trusty/ntp-14
+    num_units: 0
+series: trusty
+relations:
+- - hdphive:namenode
+  - yarn-hdfs-master:namenode
+- - yarn-hdfs-master:namenode
+  - compute-node:datanode
+- - hdphive:resourcemanager
+  - yarn-hdfs-master:resourcemanager
+- - yarn-hdfs-master:resourcemanager
+  - compute-node:nodemanager
+- - hdphive:db
+  - mysql:db
