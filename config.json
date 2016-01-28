@@ -7,23 +7,40 @@
     "bundles": [{
         "key": "hdp-core-batch-processing",
         "name": "Hadoop Core Batch Processing",
-        "summary": "Run a standard Mapreduce job using the hadoop core batch processing solution."
+        "summary": "Run a standard Mapreduce job using the hadoop core batch processing solution.",
+        "revision": 9
     }, {
         "key": "high-performance-batch-processing",
         "name": "High Performance Batch Processing",
-        "summary": "For higher performance run your native mapreduce application on top of Tez."
+        "summary": "For higher performance run your native mapreduce application on top of Tez.",
+        "revision": 5
     }, {
         "key": "data-analytics-with-sql-like",
         "name": "Data Analytics with SQL-like",
-        "summary": "Run simple SQL-like analytics with Hive"
+        "summary": "Run simple SQL-like analytics with Hive",
+        "revision": 6
     }, {
         "key": "data-analytics-with-pig-latin",
         "name": "Data Analytics with Pig Latin",
-        "summary": "Analyse unstructured data analytics with Pig"
+        "summary": "Analyse unstructured data analytics with Pig",
+        "revision": 8
     }, {
         "key": "real-time-analytics-with-storm",
         "name": "Real Time Analytics with Storm",
-        "summary": "Run real-time analytics with Storm"
+        "summary": "Run real-time analytics with Storm",
+        "revision": 9
     }],
+    "metadata": [
+      {
+        "compute-node": {
+          "allowed_assignment_types": ["BareMetal", "KVM"]
+        }
+      },
+      {
+        "hdphive": {
+          "allowed_assignment_types": ["KVM", "LXC"]
+        }
+      }
+    ],
     "bin":  "bigdata-install"
 }

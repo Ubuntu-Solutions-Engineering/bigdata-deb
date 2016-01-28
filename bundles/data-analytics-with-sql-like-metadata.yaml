@@ -1,5 +1,0 @@
-services:
-  compute-node:
-    allowed_assignment_types: ['BareMetal', 'KVM']
-  hdphive:
-    allowed_assignment_types: ['KVM', 'LXC']
