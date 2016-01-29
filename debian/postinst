@@ -3,7 +3,13 @@
 set -e
 
 echo ""
-echo "Please run bigdata-install to finish installation."
+echo "|"
+echo "| Please run:"
+echo "|"
+echo "|  $ bigdata-install"
+echo "|"
+echo "| As an unprivileged user to finish installation."
+echo "|"
 echo ""
 
 exit 0

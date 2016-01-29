@@ -1,4 +1,4 @@
 #!/bin/bash
 
-conjure-setup -c /usr/share/bigdata/config.json
+conjure-setup -c /usr/share/bigdata/config.json -m /usr/share/bigdata/metadata.json
 exit 0
