@@ -1,2 +1,3 @@
 config.json usr/share/bigdata
+metadata.json usr/share/bigdata
 bigdata-install usr/bin
