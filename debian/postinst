@@ -12,4 +12,6 @@ echo "| As an unprivileged user to finish installation."
 echo "|"
 echo ""
 
+#DEBHELPER#
+
 exit 0
