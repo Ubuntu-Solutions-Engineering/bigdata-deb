@@ -1,4 +1,4 @@
-bigdata (0.0.1) trusty; urgency=medium
+bigdata (1.0.0) trusty; urgency=medium
 
   * Automatic conjure build
 
