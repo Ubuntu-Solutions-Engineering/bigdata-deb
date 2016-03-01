@@ -7,33 +7,27 @@
     "bundles": [{
         "key": "apache-core-batch-processing",
         "name": "Apache MapReduce",
-        "summary": "MapReduce is a software framework for easily writing applications which process vast amounts of data in-parallel on large clusters of machines.",
-        "revision": 21
+        "summary": "MapReduce is a software framework for easily writing applications which process vast amounts of data in-parallel on large clusters of machines."
     }, {
         "key": "apache-hadoop-spark",
         "name": "Apache Spark",
-        "summary": "Extend the core MapReduce model to include the Apache Spark execution engine and take advantage of a fast general engine for large-scale data processing.",
-        "revision": 5
+        "summary": "Extend the core MapReduce model to include the Apache Spark execution engine and take advantage of a fast general engine for large-scale data processing."
     }, {
         "key": "realtime-syslog-analytics",
         "name": "Apache Flume/Spark/Zeppelin",
-        "summary": "An end-to-end Big Data solution that enables ingestion, processing, and visualization of log data",
-        "revision": 13
+        "summary": "An end-to-end Big Data solution that enables ingestion, processing, and visualization of log data"
     }, {
         "key": "apache-hadoop-spark-zeppelin",
         "name": "Apache Spark Streaming",
-        "summary": "Leverage Spark's built-in ingestion support for twitter, local data and more.",
-        "revision": 12
+        "summary": "Leverage Spark's built-in ingestion support for twitter, local data and more."
     }, {
         "key": "apache-analytics-pig",
         "name": "Data analytics with Apache Pig Latin",
-        "summary": "Use Pig Latin to run analytics on your data by connecting Pig to Hadoop Core.",
-        "revision": 15
+        "summary": "Use Pig Latin to run analytics on your data by connecting Pig to Hadoop Core."
     }, {
         "key": "apache-analytics-sql",
         "name": "Data analytics with SQL-like",
-        "summary": "Connect Hive to Hadoop Core for SQL-like data analysis with a MySQL data warehouse.",
-        "revision": 19
+        "summary": "Connect Hive to Hadoop Core for SQL-like data analysis with a MySQL data warehouse."
     }],
     "bin":  "bigdata-install"
 }
