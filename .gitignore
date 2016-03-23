@@ -1,4 +1,4 @@
 debian/bigdata.debhelper*
 debian/bigdata.substvars
 debian/bigdata
-debian/files
+debian/filesdebian/tmp
