@@ -1,4 +1,5 @@
 config.json usr/share/bigdata
 metadata.json usr/share/bigdata
+bigdata-rsyslog.conf usr/share/bigdata
 usr/bin/bigdata-install
 usr/share/man/man1/bigdata-install.1

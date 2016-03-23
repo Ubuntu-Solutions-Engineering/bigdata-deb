@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+if [ ! -f /var/log/bigdata.log ]; then
+        touch /var/log/bigdata.log
+fi
+chown syslog:syslog /var/log/bigdata.log
+
+ln -sf /usr/share/bigdata/bigdata-rsyslog.conf /etc/rsyslog.d/99-bigdata.conf
+
+invoke-rc.d rsyslog restart
+
+#DEBHELPER#
