@@ -1,4 +1,0 @@
-#!/bin/bash
-
-conjure-scaffold -n bigdata $@
-exit 0
