@@ -1,5 +1,5 @@
-bigdata (1.0.0) trusty; urgency=medium
+bigdata (1.0.0) xenial; urgency=medium
 
-  * Automatic conjure build
+  * Intial Release (LP: #1561043)
 
  -- Adam Stokes <adam.stokes@ubuntu.com>  Wed, 02 Dec 2015 07:04:07 -0500
