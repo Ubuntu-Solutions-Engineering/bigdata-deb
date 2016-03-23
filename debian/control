@@ -12,5 +12,7 @@ Package: bigdata
 Architecture: all
 Depends: conjure, ${misc:Depends}
 Description: Software platform for processing vast amounts of data
- Hadoop is a software platform that lets one easily write and run applications
- that process vast amounts of data.
+ When exploring big data solutions, one of the most daunting tasks users face
+ is the setup and configuration of these usually complex tools. This can take
+ from hours to days, time you could and should spend testing, evaluating, and
+ putting your big data solutions to good use to benefit your business.
