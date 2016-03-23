@@ -1,4 +1,13 @@
 #!/usr/bin/make -f
 
+PKGDIR=debian/tmp
+
 %:
 	dh $@
+
+override_dh_install:
+	mkdir -p $(PKGDIR)/usr/share/man/man1
+	mkdir -p $(PKGDIR)/usr/bin
+	cp bigdata-install $(PKGDIR)/usr/bin
+	help2man $(PKGDIR)/usr/bin/bigdata-install -n "apt install juju bundles" --no-info > $(PKGDIR)/usr/share/man/man1/bigdata-install.1
+	dh_install
