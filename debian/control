@@ -3,7 +3,7 @@ Section: admin
 Priority: extra
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Build-Depends: conjure, debhelper (>= 9), help2man
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: https://github.com/Ubuntu-Solutions-Engineering/bigdata-deb
 Vcs-Browser: https://github.com/Ubuntu-Solutions-Engineering/bigdata-deb
 Vcs-Git: https://github.com/Ubuntu-Solutions-Engineering/bigdata-deb.git
