@@ -28,6 +28,5 @@
         "key": "apache-analytics-sql",
         "name": "Data analytics with SQL-like",
         "summary": "Connect Hive to Hadoop Core for SQL-like data analysis with a MySQL data warehouse."
-    }],
-    "bin":  "bigdata-install"
+    }]
 }
